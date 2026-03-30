@@ -1,0 +1,36 @@
+{
+  "baseline": {
+    "exact_match": 2.0,
+    "f1": 8.091652207441681,
+    "training_time": 613.6564130783081,
+    "parameters": 108893186,
+    "num_examples": 50,
+    "final_loss": 4.1739451335026665
+  },
+  "domain_adapted": {
+    "exact_match": 2.0,
+    "f1": 10.475290791080267,
+    "training_time": 607.4124360084534,
+    "total_time": 939.8908360004425,
+    "mlm_time": 332.47839999198914,
+    "parameters": 108893186,
+    "num_examples": 50,
+    "final_loss": 4.179687013992896
+  },
+  "improvement": {
+    "em_diff": 0.0,
+    "f1_diff": 2.383638583638586
+  },
+  "config": {
+    "model_name": "bert-base-uncased",
+    "qa_train_samples": 200,
+    "qa_val_samples": 50,
+    "qa_epochs": 2,
+    "qa_learning_rate": 3e-05,
+    "qa_batch_size": 8,
+    "mlm_train_samples": 300,
+    "mlm_epochs": 2,
+    "mlm_learning_rate": 5e-05,
+    "device": "cpu"
+  }
+}
