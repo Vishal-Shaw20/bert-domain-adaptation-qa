@@ -1,13 +1,6 @@
 # Exclude these
 __pycache__/
-*.py[cod]
 .venv/
-venv/
-report/
-*.pdf
-.cache/
-.DS_Store
-Thumbs.db
+.report/
 .vscode/
 .idea/
-assignment.txt
